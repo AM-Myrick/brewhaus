@@ -1,7 +1,7 @@
 import { ref, computed } from 'vue'
 
 const baseURL = 'https://api.punkapi.com/v2/beers'
-
+// using a singleton composable for simple shared state
 export default (function () {
     // refs
     const beerList = ref(null)
