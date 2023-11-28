@@ -1,18 +1,4 @@
 # brewhaus
-A take home test designing an API interface for a fictitious company
+Brewhaus is a simple beer listing app made with Vue 3, Bootstrap, and the Composition API. It features pagination, a details page with more information on the selected beer, a simple search by name, and an advanced search for queries that follow this pattern: “(param): value” ex. “abv_gt: 7” will return all beers with an alcohol by volume greater than 7.
 
-Welcome to Brewhaus!
-
-Please design a simple website using a modern JavaScript framework (prefer Vue 2.0 or 3.0) for the fictitious company Brewhaus using the Punk API located here: https://punkapi.com/
-
-Features of this website should include:
-- Main page listing out beers
-- Pagination or lazy loading of beers
-- Simple search function of beers
-- Details page where a user can find out more information about specific beers, such as IBUs, hops and malt type.
-
-Feel free to embellish beyond that.
-
-While you are not obligated to use them, this repo comes with an API file and a Brewhaus image. **You are free to use anything else you would like!**
-
-Good luck!
+To run the app locally, clone this repo, cd into the client folder, then run `npm i` and `npm run dev`.
